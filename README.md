@@ -1,5 +1,6 @@
 # `git` Practice Session
 Author: Shuto Araki
+
 Date: 10/01/2018
 
 ## First, fork this repository from the upper right button.
