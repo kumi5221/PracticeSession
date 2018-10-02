@@ -3,6 +3,10 @@ Author: Shuto Araki
 
 Date: 10/01/2018
 
+## `git` architecture
+
+![alt text](https://github.com/ShutoAraki/PracticeSession/blob/master/images/Git-Architechture-Git-Tutorial-Edureka-2.png)
+
 ## First, fork this repository from the upper right button.
 This allows you to copy this repository that you own and play around with!
 
@@ -15,14 +19,14 @@ This allows you to copy this repository that you own and play around with!
 
 4. Go back to your repository that you just forked. You see the green button that says "Clone or Download"? Click on it and copy the address you see. In my case, it is `git@github.com:ShutoAraki/PracticeSession.git`.
 
-5. On Terminal, type `git clone [whatever address that you just copied]`. So in my case, I would type `git clone git@github.com:ShutoAraki/PracticeSession.git`. This should create a copy of your <strong>remote repository</strong> on the folder `git_practice`. This folder is now your <strong>local repository</strong>!
+5. On Terminal, type `git clone [whatever address that you just copied]`. So in my case, I would type `git clone git@github.com:ShutoAraki/PracticeSession.git`. This will create a new folder `PracticeSession`, which is a copy of your <strong>remote repository</strong> on the folder `git_practice`. This folder is now your <strong>local repository</strong>! `cd PracticeSession` to get into the repository.
 
 ## Try add, commit, and push to your repository!
 Remember `git add .`, `git commit -m "Message"`, and `git push`? Try those commands on your Terminal or Command Prompt.
 
-1. Create a new text file and type whatever you like and add it to your `git_practice` folder.
+1. Create a new text file and type whatever you like and add it to your `PracticeSession` folder.
 
-2. Go back to Terminal on the folder and type `git status`. It tells you what file you haven't committed or staged.
+2. Go back to Terminal on the folder and type `git status`. It tells you what files you haven't committed or staged.
 
 3. Stage the new text file by typing `git add .`. The last dot means "Add every unstaged file to the stage." You can also specify which file to stage by typing its name. (Tip: You can start typing the file name and hit the tab key. It will automatically fills in what you were trying to type! You don't have to type a whole name, this is great!!)
 
